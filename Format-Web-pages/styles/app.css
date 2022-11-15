@@ -1,14 +1,18 @@
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-.content{
-    background-color: #ccc;
-    width: 100%;
-    height: 100px;
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
